@@ -1,5 +1,5 @@
 "Consonant Please"
-https://www.codewars.com/kata/59727e04f6a02d0cde00001a/train/javascript
+https://www.codewars.com/kata/59727e04f6a02d0cde00001a
 
 // My code
 function sortLetters(arr) {
