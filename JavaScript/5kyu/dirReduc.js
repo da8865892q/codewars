@@ -19,13 +19,10 @@ function dirReduc(arr){
 }
 
 // Best code
-// function dirReduc(plan) {
-//   var opposite = { 'NORTH': 'SOUTH', 'EAST': 'WEST', 'SOUTH': 'NORTH', 'WEST': 'EAST' };
-//   return plan.reduce(function(dirs, dir){
-//     if (dirs[dirs.length - 1] === opposite[dir])
-//       dirs.pop();
-//     else
-//       dirs.push(dir);
-//     return dirs;
-//   }, []);
+// function dirReduc(arr){
+//   const dir = arr.join(' ');
+//   const dir2 = dir.replace('NORTH SOUTH', '').replace('SOUTH NORTH','').replace('EAST WEST','').replace('WEST EAST','').replace('  ', ' ')
+//   const dir3 = dir2.split(' ')
+//   const dir4 = dir3.filter(item => item !== '');
+//   return (dir4.length < arr.length) ? dirReduc(dir4) : dir4
 // }
